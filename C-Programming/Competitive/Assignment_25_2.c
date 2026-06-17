@@ -2,26 +2,22 @@
 
 void Pattern(int iRow, int iCol)
 {
-   int i = 0, j = 0, iCnt = 0;
+   int i = 0, j = 0, ieven = 0, iodd = 0;
 
    for(i = 1; i <= iRow; i++)
    {
-      for (j = 1; j <= iCol; j++, iCnt++)
+      if((i % 2) == 0)
       {
-         if((i % 2) == 0)
+         for (j = 1, ieven = 1; j <= iCol; j++, ieven+=2)
          {
-            if(j % 2 == 0)
-            {
-               printf("%d\t", iCnt);
-            }  
+            printf("%d\t", ieven);
          }
-         else
+      }
+      else
+      {
+         for (j = 1, iodd = 2; j <= iCol; j++, iodd+=2)
          {
-            if (iCnt % 2 != 0)
-            {
-               printf("%d\t", iCnt);
-            }
-            
+            printf("%d\t", iodd);
          }         
       }
       printf("\n");
