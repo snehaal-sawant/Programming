@@ -1,0 +1,43 @@
+import java.util.*;
+
+class OffBit 
+{
+   long ChangeBit(long iNo)
+   {
+      long iMask1 = 0x1;
+      long iMask2 = 0x1;
+      long iMask3 = 0x1;
+      long iMask = 0x1;
+      long iResult = 0;
+
+      iMask1 = iMask1 << 6;
+      iMask2 = iMask2 << 9;
+      iMask = iMask1 | iMask2;
+
+      iMask3 = ~iMask;
+
+      iResult = iNo ^ iMask3;
+
+      return iResult;
+   }
+}
+
+class Assignment_36_2
+{
+   public static void main(String[] args) 
+   {
+      Scanner sobj = new Scanner(System.in);
+      long iRet = 0;
+
+      System.out.println("Enter the number : ");
+      long iValue = sobj.nextLong();
+
+      OffBit cobj = new OffBit();
+
+      iRet = cobj.ChangeBit(iValue);
+
+      System.out.println("Updated number is : "+iRet);
+
+      sobj.close();
+   }
+}
