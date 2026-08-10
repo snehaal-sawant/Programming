@@ -1,0 +1,39 @@
+----------------------------------------
+File Name : program1.c
+File Size  : 111
+----------------------------------------
+
+#include<stdio.h>
+
+int main()
+{
+   printf("Sarvadnya Shree Chakradhar Swami ki Jay...\n");
+   return 0;
+}
+----------------------------------------
+File Name : program2.cpp
+File Size  : 134
+----------------------------------------
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+   cout<< "Sarvadnya Shree Chakradhar Swami ki Jay...\n";
+   return 0;
+}
+----------------------------------------
+File Name : program3.java
+File Size  : 120
+----------------------------------------
+
+class program3{
+
+   public static void main(String[] args) {
+      System.out.println("Sarvadnya...");
+   }
+
+}
+
+
