@@ -1,6 +1,6 @@
 // Write java program to accept directory name from user and write data
 // of all files along with its name into one newly created file named as
-// “Marvellous.txt”.
+// “Marvellous.txt”
 
 import java.io.*;
 import java.util.Scanner;
