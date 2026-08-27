@@ -2,7 +2,7 @@
 
 typedef unsigned int UINT;
 
-//Position -- 4
+//Position -- 4 -- Off the bit at position 4 of accepted number if its on and if its off then it will remain off
 
 int main()
 {  

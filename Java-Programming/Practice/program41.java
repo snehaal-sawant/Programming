@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 class program41
 {
-   static void CheckDivisible(int iNo)
+   static void CheckDivisible(int iNo)          //Declared static - As it is beed called in static function that is main
    {
       if((iNo % 3 == 0) && (iNo % 5 == 0))
       {

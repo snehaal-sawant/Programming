@@ -2,7 +2,7 @@
 
 typedef unsigned int UINT;
 
-//Position -- 4
+//Position -- 4 - Toggle 4th bit of accepted number
 
 int main()
 {  
@@ -11,12 +11,12 @@ int main()
    UINT iAns = 0;
 
    printf("Enter Number : ");
-   scanf("%d", &iNo);  
+   scanf("%u", &iNo);  
 
    iMask = 0x8;
    iNo = iNo ^ iMask;
 
-   printf("Updated number is : %d", iNo);
+   printf("Updated number is : %u", iNo);
    
    return 0;
 }

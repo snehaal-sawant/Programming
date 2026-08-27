@@ -1,4 +1,4 @@
-//Type 2
+//Type 2 -- Everything in same class but the business logic in separate function
 
 import java.util.Scanner;
 

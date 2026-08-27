@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 class program43
 {
-   public static boolean CheckDivisible(int iNo)
+   public static boolean CheckDivisible(int iNo)   //Return type boolean
    {
       if((iNo % 3 == 0) && (iNo % 5 == 0))
       {

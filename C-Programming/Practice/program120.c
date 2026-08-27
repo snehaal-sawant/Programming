@@ -11,7 +11,7 @@ int main()
    scanf("%d", &iLength);
 
    //Step 2 : Allocate the memory
-   Brr = (int *)malloc(iLength * sizeof(int));       // Memory will be allocated on HEAP as it is Dynamic
+   Brr = (int *)malloc(iLength * sizeof(int));       //Memory will be allocated on HEAP as it is Dynamic
 
    //Step 3 : Accept the values from user
    

@@ -5,9 +5,8 @@ typedef unsigned int UINT;
 int main()
 {  
    //Smallest value of int
-
    UINT iMask = 0x80000000;
-   printf("%d\t%X\n", iMask, iMask);  
+   printf("%u\t%X\n", iMask, iMask);  
 
    return 0;
 }

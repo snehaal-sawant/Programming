@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-//Position - 11
+//Position - 28 - Toggle 28th bit of accepted number
 typedef unsigned int UINT;
 
 int main()

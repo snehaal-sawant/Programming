@@ -1,4 +1,4 @@
-//Type 3
+//Type 3 -- Business logic in separate function which is in separate class from main
 
 import java.util.Scanner;
 

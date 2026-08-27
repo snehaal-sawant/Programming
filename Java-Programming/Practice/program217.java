@@ -28,7 +28,7 @@ class Pattern
       {
          for(j = 1; j <= iCol; j++)
          {
-            if(j == 1 || j == iCol || i == 1 || i == iRow || i == j)              
+            if(j == 1 || j == iCol || i == 1 || i == iRow)              
             {
                System.out.print("%\t");
             }

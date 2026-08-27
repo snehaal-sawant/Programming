@@ -9,7 +9,7 @@ int main()
    UINT iAns = 0;
 
    printf("Enter Number : ");
-   scanf("%d", &iNo);  
+   scanf("%u", &iNo);
 
    iAns = iNo & iMask;
 

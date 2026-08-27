@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 class program42
 {
-   public static void CheckDivisible(int iNo) // if its not declared public it is considered as default
+   public static void CheckDivisible(int iNo) // if its not declared public it is considered as default in java
    {
       if((iNo % 3 == 0) && (iNo % 5 == 0))
       {

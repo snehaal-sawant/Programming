@@ -30,6 +30,7 @@ class program47
       nobj.DisplayFactors(iValue);
 
       sobj.close();
+
    }
 }
 

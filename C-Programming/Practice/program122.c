@@ -10,7 +10,6 @@ int Summation(int Arr[], int iSize)
       iSum = iSum + Arr[iCnt];
    }
    return iSum;
-
 }
 
 int main()

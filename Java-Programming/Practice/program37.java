@@ -6,7 +6,7 @@ class program37
       
       for(iCnt = 1; iCnt <= 10; iCnt++)
       {
-         System.out.println(iCnt);
+         System.out.println(iCnt);     //println method used
       }
    }
 }

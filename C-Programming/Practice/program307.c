@@ -12,7 +12,7 @@ int main()
    while (iNo != 0)
    {
       iDigit = iNo % 2;
-      iCount = iCount + iDigit;
+      iCount = iCount + iDigit;           //Removing if condition and adding iDigit to iCount directly
       iNo = iNo / 2;
    }
    

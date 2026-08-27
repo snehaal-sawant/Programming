@@ -1,0 +1,19 @@
+# Compiled C / C++
+*.exe
+*.out
+*.obj
+*.o
+
+# Java compiled files
+*.class
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+New Text Document.txt

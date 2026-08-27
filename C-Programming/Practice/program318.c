@@ -2,7 +2,7 @@
 
 typedef unsigned int UINT;
 
-int main()
+int main()                    //Program to demonstrate left shift operator using %d format specifier
 {  
    UINT iMask = 0x1;
 

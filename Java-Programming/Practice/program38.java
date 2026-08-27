@@ -6,7 +6,7 @@ class program38
       
       for(iCnt = 1; iCnt <= 10; iCnt++)
       {
-         System.out.printf("%d\n", iCnt);
+         System.out.printf("%d\n", iCnt);  //printf method used from C with format specifies
       }
    }
 }

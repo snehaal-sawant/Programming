@@ -2,7 +2,7 @@
 
 typedef unsigned int UINT;
 
-// Position 3rd and 7th
+// Position 3rd and 7th -- toggle the bits of accepted number
 int main()
 {  
    UINT iMask = 0x00000044;
@@ -10,7 +10,7 @@ int main()
    UINT iResult = 0;
 
    printf("Enter Number : ");
-   scanf("%d", &iNo); 
+   scanf("%d", &iNo);
 
    iResult = iNo ^ iMask;
 

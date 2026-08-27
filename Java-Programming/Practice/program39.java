@@ -1,4 +1,4 @@
-//Type 1
+//Type 1 - Complete program and logic in main method in the same class
 
 import java.util.Scanner;
 
